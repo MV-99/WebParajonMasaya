@@ -1,0 +1,57 @@
+/* Fondo en tonos pastel */
+.gallery-container {
+    min-height: 100vh;
+    padding: 40px;
+    background: linear-gradient(to bottom right, #ffe0f0, #d8f3ff, #e0ffe5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Grid responsive */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Estilo Polaroid */
+.polaroid {
+    background-color: white;
+    padding: 10px 10px 30px 10px;
+    /* parte inferior más ancha */
+    border: 1px solid #ccc;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.polaroid:hover {
+    transform: scale(1.03);
+}
+
+.polaroid img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Pie de foto */
+.caption {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #444;
+    font-weight: 500;
+}
