@@ -204,24 +204,6 @@ const CatalogPage = () => {
                 zIndex: 1000,
             }}>
                 <h2 style={{ color: 'black', fontSize: '35px', margin: 0 }}>Parajón</h2>
-                <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
-
-                    <Button
-                        variant="text"
-                        sx={{
-                            backgroundColor: "transparent",
-                            color: "black",
-                            textTransform: "none",
-                            fontSize: "16px",
-                            borderRadius: '15px',
-                            marginLeft: '-180px',
-                            '&:active': { backgroundColor: "#B1D4F1", color: "black" }
-                        }}
-                        onClick={() => navigate('/login')}
-                    >
-                        Iniciar Sesión
-                    </Button>
-                </div>
             </div>
 
             <div style={{ paddingTop: '100px' }}></div>

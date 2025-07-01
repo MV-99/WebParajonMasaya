@@ -497,7 +497,7 @@ const Catalogo = () => {
                 ❤️Catálogo de Zapatos❤️
             </h1>
 
-            <h3 style={{ textAlign: 'center', color: 'gray', fontWeight: 'lighter', }}>¡Descubre nuestros diferentes estilos ✨y precios amigables a tu bolsillo💸!</h3>
+            <h3 style={{ textAlign: 'center', color: 'gray', fontWeight: 'bold' }}>¡Descubre nuestros diferentes estilos ✨y precios amigables a tu bolsillo💸!</h3>
 
             {/* Filtros */}
             <div style={{ backgroundColor: "white", padding: "20px", borderRadius: "10px", margin: "20px 0" }}>
