@@ -193,7 +193,7 @@ const CatalogPage = () => {
                 top: 0,
                 left: 0,
                 width: '100%',
-                display: 'flex',
+                display: 'center',
                 justifyContent: 'center',
                 alignItems: 'center',
                 padding: '20px 30px',
@@ -544,6 +544,33 @@ const CatalogPage = () => {
                     </a>
                 </div>
             </div>
+            {/* Botón flotante de WhatsApp */}
+            <a
+                href="https://wa.me/50576168096?text=Hola%2C%20quiero%20más%20información%20sobre%20los%20zapatos%20artesanales%20de%20Parajón"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                    position: 'fixed',
+                    bottom: '20px',
+                    right: '20px',
+                    zIndex: 9999,
+                    width: '50px',
+                    height: '50px',
+                    borderRadius: '50%',
+                    backgroundColor: 'pink',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    boxShadow: '0 4px 12px rgba(0,0,0,0.3)',
+                    cursor: 'pointer'
+                }}
+            >
+                <img
+                    src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+                    alt="WhatsApp"
+                    style={{ width: '30px', height: '30px' }}
+                />
+            </a>
 
         </div>
 
