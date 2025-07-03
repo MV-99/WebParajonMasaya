@@ -1,6 +1,6 @@
 /* Fondo en tonos pastel */
 .gallery-container {
-    min-height: 100vh;
+    min-height: 60vh;
     padding: 40px;
     background: linear-gradient(to bottom right, #ffe0f0, #d8f3ff, #e0ffe5);
     display: flex;

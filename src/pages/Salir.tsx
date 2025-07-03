@@ -30,14 +30,11 @@ const cardStyleBase: React.CSSProperties = {
 };
 //fotos culturales
 const images = [
-    { src: 'images/img1.webp' },
     { src: 'images/img2.jpg' },
     { src: 'images/img3.jpg' },
-    { src: 'images/img4.jpg' },
     { src: 'images/img5.jpg' },
     { src: 'images/img6.jpg' },
-    { src: 'images/img7.jpg' },
-    { src: 'images/img8.jpg' },
+    
 ];
 
 const images2 = [
@@ -139,13 +136,14 @@ const CatalogPage = () => {
     //cambio de imagenes en quienes somos
 
     const imagenes = [
-        'images/c6.jpeg',
-        'images/c1.jpeg',
-        'images/c2.jpeg',
-        'images/login1.jpeg',
-        'images/c3.jpeg',
-        'images/c4.jpeg',
-        'images/login2.jpeg',
+       
+     
+        'images/zapato36.jpeg',
+        'images/zapato37.jpeg',
+        'images/zapato38.jpeg',
+        'images/zapato39.jpeg',
+        'images/zapato40.jpeg',
+        'images/zapato41.jpeg',
 
 
     ];
@@ -159,7 +157,7 @@ const CatalogPage = () => {
                 setIndice((prev) => (prev + 1) % imagenes.length);
                 setFade(true); // vuelve a fade-in
             }, 500); // tiempo del fade-out
-        }, 4000); // segundos
+        }, 2000); // segundos
 
         return () => clearInterval(intervalo);
     }, []);
@@ -196,7 +194,7 @@ const CatalogPage = () => {
                 left: 0,
                 width: '100%',
                 display: 'flex',
-                justifyContent: 'space-between',
+                justifyContent: 'center',
                 alignItems: 'center',
                 padding: '20px 30px',
                 backgroundColor: 'white',
