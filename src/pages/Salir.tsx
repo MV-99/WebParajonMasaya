@@ -497,8 +497,8 @@ const CatalogPage = () => {
                     <h3 style={{ color: '#111' }}>Teléfono</h3>
 
                     <p style={{ color: '#666', margin: '0.5rem 0' }}>Tel: +505 89858585</p>
-                    <p style={{ color: '#666', margin: '0.5rem 0' }}>Lun - Sab: 9:00 - 17:30</p>
-                    <p style={{ color: '#666', margin: '0.5rem 0' }}>Dom: 9:00 - 2:00</p>
+                    <p style={{ color: '#666', margin: '0.5rem 0' }}>Lun - Sab: 9:00 am - 5:30 pm</p>
+                    <p style={{ color: '#666', margin: '0.5rem 0' }}>Dom: 9:00 am - 2:00 pm</p>
                     <a href="Tel: +505 89858585" style={{ color: '#ace0f9', fontWeight: 'bold', textDecoration: 'none' }}>
                         Llamar ahora
                     </a>
