@@ -413,7 +413,7 @@ const shoesData: Shoe[] = [
         image: "/images/zapato36.jpeg",
         gender: "hombre",
         type: "botas",
-        sizes: [39,40,41],
+        sizes: [39, 40, 41],
         color: "negro",
         category: "botas",
     },
@@ -424,7 +424,7 @@ const shoesData: Shoe[] = [
         image: "/images/zapato37.jpeg",
         gender: "unisex",
         type: "botas",
-        sizes: [38,39,40,41],
+        sizes: [38, 39, 40, 41],
         color: "cafe",
         category: "botas",
     },
@@ -446,7 +446,7 @@ const shoesData: Shoe[] = [
         image: "/images/zapato39.jpeg",
         gender: "hombre",
         type: "botas",
-        sizes: [37,38, 39, 40, 41],
+        sizes: [37, 38, 39, 40, 41],
         color: "cafe",
         category: "botas",
     },
@@ -468,7 +468,7 @@ const shoesData: Shoe[] = [
         image: "/images/zapato41.jpeg",
         gender: "unisex",
         type: "botas",
-        sizes: [39, 40, 41, 42,43],
+        sizes: [39, 40, 41, 42, 43],
         color: "cafe",
         category: "botas",
     },
@@ -661,7 +661,14 @@ const Catalogo = () => {
 
                         <div style={{ marginTop: "10px" }}>
                             <h3 style={{ fontSize: "1rem", fontWeight: "bold" }}>{shoe.name}</h3>
-                            <p style={{ color: "green", fontWeight: "bold" }}>C${shoe.price.toFixed(2)}</p>
+                            <p style={{ color: "green", fontWeight: "bold" }}>
+                                {new Intl.NumberFormat('es-NI', {
+                                    style: 'currency',
+                                    currency: 'NIO',
+                                    minimumFractionDigits: 2,
+                                }).format(shoe.price)}
+                            </p>
+
 
                             <div style={{ display: "flex", flexWrap: "wrap", gap: "5px", marginTop: "10px" }}>
                                 {shoe.sizes.map((size) => (
