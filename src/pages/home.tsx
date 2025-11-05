@@ -34,7 +34,7 @@ const images = [
     { src: 'images/img3.jpg' },
     { src: 'images/img5.jpg' },
     { src: 'images/img6.jpg' },
-    
+
 ];
 
 const images2 = [
@@ -69,19 +69,19 @@ const CatalogPage = () => {
     //cards
     const cards = [
         {
-            icon: <LocalShippingIcon style={{ fontSize: 50, color: "#ec4899" }} />,
+            icon: <LocalShippingIcon style={{ fontSize: 50, color: "#422B23" }} />,
             title: "Envío a todo el país",
             description: "Llegamos a todos los rincones con rapidez y seguridad",
             backgroundColor: 'white',
         },
         {
-            icon: <MilitaryTechIcon style={{ fontSize: 50, color: '#4d82bc' }} />,
+            icon: <MilitaryTechIcon style={{ fontSize: 50, color: '#422B23' }} />,
             title: "Materiales de alta calidad",
             description: "Seleccionamos solo los mejores materiales para tu confort",
             backgroundColor: 'white',
         },
         {
-            icon: <EditIcon style={{ fontSize: 50, color: "#97c1a9" }} />,
+            icon: <EditIcon style={{ fontSize: 50, color: "#422B23" }} />,
             title: "Diseños únicos y personalizables",
             description: "Adapta tu calzado a tu estilo personal",
             backgroundColor: "white",
@@ -136,8 +136,8 @@ const CatalogPage = () => {
     //cambio de imagenes en quienes somos
 
     const imagenes = [
-       
-     
+
+
         'images/zapato36.jpeg',
         'images/zapato37.jpeg',
         'images/zapato38.jpeg',
@@ -252,13 +252,13 @@ const CatalogPage = () => {
                         Descubre nuestra exclusiva colección de calzado. No vendemos en línea, pero te ofrecemos cotizaciones personalizadas y encargos personalizados  para que encuentres el mejor precio para tus zapatos favoritos.
                     </p>
                     <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}>
-                        <Button variant="contained" sx={{ backgroundColor: "#F277BA", color: "white", borderRadius: "20px" }} onClick={() => navigate('/cotizacion')}>
+                        <Button variant="contained" sx={{ backgroundColor: "#DBA1A2", color: "white", borderRadius: "20px" }} onClick={() => navigate('/cotizacion')}>
                             Solicitar Cotización
                         </Button>
-                        <Button variant="contained" sx={{ backgroundColor: "#F277BA", color: "white", borderRadius: "20px" }} onClick={() => navigate('/catalogo')}>
+                        <Button variant="contained" sx={{ backgroundColor: "#DBA1A2", color: "white", borderRadius: "20px" }} onClick={() => navigate('/catalogo')}>
                             Ver  Catálogo
                         </Button>
-                        <Button variant="contained" sx={{ backgroundColor: "#F277BA", color: "white", borderRadius: "20px" }} onClick={() => navigate('/ayuda2')}>
+                        <Button variant="contained" sx={{ backgroundColor: "#DBA1A2", color: "white", borderRadius: "20px" }} onClick={() => navigate('/ayuda2')}>
                             Ayuda
                         </Button>
                     </div>
@@ -282,7 +282,7 @@ const CatalogPage = () => {
                     justifyContent: "center",
                     gap: "2rem",
                     padding: "2rem",
-                    backgroundColor: '#fbd7e5',
+                    backgroundColor: '#EFD8D6',
                 }}
             >
                 {cards.map((card, index) => (
@@ -314,7 +314,7 @@ const CatalogPage = () => {
                     alignItems: 'center',
                     justifyContent: 'space-around',
                     padding: '3rem 1rem',
-                    backgroundColor: 'white',
+                    backgroundColor: '#F7F3ED',
                     flexWrap: 'wrap',
                 }}
             >
@@ -335,7 +335,7 @@ const CatalogPage = () => {
                             left: '10px',
                             width: '100%',
                             height: '100%',
-                            backgroundColor: '#c4dafa',
+                            backgroundColor: '#DBA1A2',
                             borderRadius: '12px',
                             zIndex: 0,
                         }}
@@ -367,7 +367,7 @@ const CatalogPage = () => {
 
                             fontSize: '3.2rem',
                             marginBottom: '1rem',
-                            color: '#4d82bc'
+                            color: '#DBA1A2'
                         }}
                     >
                         ¿Quiénes somos?
@@ -407,7 +407,7 @@ const CatalogPage = () => {
 
             {/*parte de  marketing, polaroidsss*/}
             <div className="gallery-container">
-                <h1 className="gallery-title">🌸 Realizamos calzados especiales en actividades culturales🌸</h1>
+                <h1 className="gallery-title"> Realizamos calzados especiales en actividades culturales</h1>
                 <div className="gallery-grid">
                     {images.map((image, index) => (
                         <div className="polaroid" key={index}>
@@ -421,12 +421,12 @@ const CatalogPage = () => {
             {/*parte de tips*/}
             <div
                 style={{
-                    backgroundColor: "#fbe4ff",
+                    backgroundColor: "#F7F3ED",
                     padding: "3rem 1rem",
                     textAlign: "center",
                 }}
             >
-                <h2 style={{ fontSize: "3rem", fontWeight: "bold", color: "#111827", marginBottom: "0.5rem" }}>
+                <h2 style={{ fontSize: "3rem", fontWeight: "bold", color: "#422B23", marginBottom: "0.5rem" }}>
                     Tips para cuidar tu calzado Parajón
                 </h2>
                 <p style={{ maxWidth: "700px", margin: "0 auto 2rem", color: "#6b7280", fontSize: "1.2rem" }}>
@@ -470,14 +470,14 @@ const CatalogPage = () => {
                 </div>
             </div>
             {/*parte de contacto*/}
-            <div style={{ textAlign: 'center', marginTop: '3rem' }}>
-                <h2 style={{ color: '#f5a3bd', fontSize: '3.2rem', marginBottom: '0.5rem' }}>Contacto</h2>
+            <div style={{ textAlign: 'center', marginTop: '3rem', backgroundColor:'#EFD8D6',height:'200px' }}>
+                <h2 style={{ color: '#422B23', fontSize: '3.2rem', marginBottom: '0.5rem' }}>Contacto</h2>
                 <p style={{ color: '#555', fontSize: '1.2rem' }}>
                     ¿Tienes alguna pregunta💡? No dudes en contactarnos. Estamos aquí para ayudarte.
                 </p>
             </div>
 
-            <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', flexWrap: 'wrap', marginTop: '2rem' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', flexWrap: 'wrap', marginTop: '-2rem',backgroundColor:'#EFD8D6',}}>
                 <div style={tarjetaEstilo}>
                     <div style={iconoEstilo('#ffe6ef')}>
                         <LocationOnIcon style={{ color: '#f5a3bd' }} />
@@ -583,7 +583,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     container: {
         overflow: 'hidden',
         width: '100%',
-        background: 'linear-gradient(to right, #ffd1dc, #c1e1ff)',
+        background: '#F7F3ED',
         padding: '2rem 0',
     },
 

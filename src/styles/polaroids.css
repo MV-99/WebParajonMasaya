@@ -2,7 +2,7 @@
 .gallery-container {
     min-height: 60vh;
     padding: 40px;
-    background: linear-gradient(to bottom right, #ffe0f0, #d8f3ff, #e0ffe5);
+    background: #EFD8D6;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +11,7 @@
 .gallery-title {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #555;
+    color: #422B23;
     margin-bottom: 40px;
     text-align: center;
 }
