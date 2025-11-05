@@ -19,7 +19,7 @@ const Ayuda2 = () => {
                     top: '20px',
                     left: '20px',
                     fontSize: '30px',
-                    color: '#db2777',
+                    color: '#422B23',
                     cursor: 'pointer',
                     zIndex: 10,
                 }}
@@ -33,7 +33,7 @@ const Ayuda2 = () => {
             >
                 <motion.h1
                     style={{
-                        color: '#db2777',
+                        color: '#422B23',
                         textAlign: 'center',
                         display: 'flex',
                         alignItems: 'center',
@@ -45,10 +45,10 @@ const Ayuda2 = () => {
                     transition={{ duration: 0.5 }}
                 >
                     <StarOutlinedIcon style={{
-                        fontSize: '40px', color: '#db2777', fontFamily: '-moz-initial'
+                        fontSize: '40px', color: '#422B23', fontFamily: '-moz-initial'
                     }} />
                     Centro de Ayuda Parajón
-                    <StarOutlinedIcon style={{ fontSize: '40px', color: '#db2777' }} />
+                    <StarOutlinedIcon style={{ fontSize: '40px', color: '#422B23' }} />
                 </motion.h1>
 
                 <p style={{ textAlign: 'center', color: '#5E5E5E' }}>
@@ -60,7 +60,7 @@ const Ayuda2 = () => {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.3, duration: 0.5 }}
                 >
-                    <h2 style={{ color: '#db2777', }}>Preguntas Frecuentes</h2>
+                    <h2 style={{ color: '#DBA1A2', }}>Preguntas Frecuentes</h2>
 
                     {[
                         {
@@ -103,7 +103,7 @@ const Ayuda2 = () => {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.8, duration: 0.5 }}
                 >
-                    <p style={{ color: '#db2777', fontWeight: 'bold' }}>
+                    <p style={{ color: '#DBA1A2', fontWeight: 'bold' }}>
                         Si no encuentras lo que buscas, contáctanos para más ayuda💡 ¡Saludos!
                     </p>
                     <div
@@ -117,7 +117,7 @@ const Ayuda2 = () => {
                         <Button
                             variant="contained"
                             style={{
-                                backgroundColor: '#ff9cee',
+                                backgroundColor: '#DBA1A2',
                                 color: 'white',
                                 borderRadius: '20px',
                             }}

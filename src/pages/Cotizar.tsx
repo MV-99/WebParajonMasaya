@@ -70,12 +70,12 @@ const Cotizar = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
         >    {/*asi se hace la animacion*/}
-            <div style={{ padding: '2rem', backgroundColor: '#fff1f9', minHeight: '100vh' }}>
+            <div style={{ padding: '2rem', backgroundColor: '#F7F3ED', minHeight: '100vh' }}>
                 {/* Icono y título */}
                 <div style={{ display: 'flex', alignItems: 'center', marginBottom: '2rem' }}>
                     <ArrowBackOutlinedIcon
                         onClick={handleBack}
-                        style={{ cursor: 'pointer', marginRight: '0.5rem', color: '#ec4899' }}
+                        style={{ cursor: 'pointer', marginRight: '0.5rem', color: '#422B23' }}
                     />
 
                 </div>
@@ -89,7 +89,7 @@ const Cotizar = () => {
                 }}>
                     {/* Izquierda - Texto */}
                     <div style={{ flex: 1, minWidth: '300px' }}>
-                        <h1 style={{ color: '#ec4899', fontWeight: 'bold', fontFamily: '-moz-initial' }}>Solicita tu Cotización✨</h1>
+                        <h1 style={{ color: '#422B23', fontWeight: 'bold', fontFamily: '-moz-initial' }}>✨Solicita tu Cotización✨</h1>
                         <p style={{ marginBottom: '1rem', fontSize: '16px', color: '#4b5563', fontWeight: 'inherit' }}>
                             En Parajón no vendemos directamente en línea. Preferimos ofrecerte un servicio personalizado con las mejores cotizaciones  de nuestros calzados y encargos personalizados para que obtengas el mejor precio.
                         </p>
@@ -98,12 +98,12 @@ const Cotizar = () => {
                         </p>
 
                         <div style={{
-                            backgroundColor: '#f0f9ff',
+                            backgroundColor: '#f3e6e4ff',
                             borderRadius: '10px',
                             padding: '1rem',
                             fontSize: '14px'
                         }}>
-                            <p style={{ fontWeight: 'bold', color: '#0ea5e9', fontSize: '16px', fontFamily: '-moz-initial' }}>¿Por qué cotizar con nosotros?</p>
+                            <p style={{ fontWeight: 'bold', color: '#DBA1A2', fontSize: '16px', fontFamily: '-moz-initial' }}>¿Por qué cotizar con nosotros?</p>
                             <ul style={{ paddingLeft: '1.2rem', color: 'black', fontSize: '15px' }}>
                                 <li>Precios competitivos adaptados a tus necesidades</li>
                                 <li>Atención personalizada y asesoramiento</li>
@@ -158,14 +158,14 @@ const Cotizar = () => {
                             <label style={labelStyle}>Correo electrónico</label>
                             <input
                                 placeholder="tu@email.com"
-                                style={{ ...inputStyle, width: '95%', border: '1px solid #0ea5e9' }}
+                                style={{ ...inputStyle, width: '95%', border: '1px solid #DBA1A2' }}
                                 onChange={(e) => {
                                     const value = e.target.value;
                                     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
                                     if (!emailRegex.test(value)) {
                                         e.target.style.border = '2px solid red';
                                     } else {
-                                        e.target.style.border = '1px solid #0ea5e9';
+                                        e.target.style.border = '1px solid #DBA1A2';
                                     }
                                 }}
                             />
@@ -178,7 +178,7 @@ const Cotizar = () => {
                             <input
                                 placeholder="xxxx-xxxx"
                                 maxLength={8}
-                                style={{ ...inputStyle, width: '95%', border: '1px solid #0ea5e9', }}
+                                style={{ ...inputStyle, width: '95%', border: '1px solid #DBA1A2', }}
                                 onChange={(e) => {
                                     const soloNumeros = e.target.value.replace(/\D/g, '');
                                     e.target.value = soloNumeros;
@@ -192,7 +192,7 @@ const Cotizar = () => {
                             <input
                                 placeholder="xxx-xxxxxx-xxxxx"
                                 maxLength={16}
-                                style={{ ...inputStyle, width: '95%', border: '1px solid pink' }}
+                                style={{ ...inputStyle, width: '95%', border: '1px solid #DBA1A2' }}
                                 onChange={(e) => {
                                     let value = e.target.value.replace(/[^a-zA-Z0-9]/g, '');
                                     if (value.length > 3 && value.length <= 9) {
@@ -227,7 +227,7 @@ const Cotizar = () => {
                                     name="talla"
                                     placeholder="Ej: 37"
                                     maxLength={30}
-                                    style={{ ...inputStyle, width: '90%', border: '1px solid pink' }}
+                                    style={{ ...inputStyle, width: '90%', border: '1px solid #DBA1A2' }}
                                 />
 
                             </div>
@@ -237,7 +237,7 @@ const Cotizar = () => {
                                     name="color"
                                     placeholder="Ej: Negro, Rojo, etc."
                                     maxLength={30}
-                                    style={{ ...inputStyle, width: '90%', border: '1px solid pink', }}
+                                    style={{ ...inputStyle, width: '90%', border: '1px solid #DBA1A2', }}
                                 />
                             </div>
                         </div>
@@ -249,7 +249,7 @@ const Cotizar = () => {
                                 name="masinfo"
                                 placeholder="Describe el modelo específico,  o cualquier detalle importante del calzado a cotizar"
                                 maxLength={300}
-                                style={{ ...inputStyle, height: '80px', resize: 'none', width: '95%', border: '1px solid #0ea5e9', }}
+                                style={{ ...inputStyle, height: '80px', resize: 'none', width: '95%', border: '1px solid #DBA1A2', }}
                             />
                         </div>
 
@@ -261,7 +261,7 @@ const Cotizar = () => {
                                 style={{
                                     ...inputStyle,
                                     width: '50%',
-                                    border: '1px solid #0ea5e9',
+                                    border: '1px solid #DBA1A2',
                                 }}
                             >
                                 <option value="Más de C$200 cordobas">Más de C$200 cordobas</option>
@@ -274,7 +274,7 @@ const Cotizar = () => {
                         <button
                             type="submit"
                             style={{
-                                backgroundColor: '#f472b6',
+                                backgroundColor: '#422B23',
                                 color: 'white',
                                 border: 'none',
                                 padding: '0.8rem',
@@ -298,7 +298,7 @@ const inputStyle: React.CSSProperties = {
     width: '100%',
     padding: '0.7rem',
     borderRadius: '8px',
-    border: '1px solid #e5e7eb',
+    border: '1px solid #DBA1A2',
     outline: 'none'
 };
 
@@ -312,7 +312,7 @@ const input2: React.CSSProperties = {
     width: '90%',
     padding: '0.7rem',
     borderRadius: '10px',
-    border: '1px solid pink',
+    border: '1px solid #DBA1A2',
     outline: 'none'
 };
 

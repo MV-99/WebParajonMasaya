@@ -576,20 +576,20 @@ const Catalogo = () => {
 
     return (
 
-        <div style={{ minHeight: "100vh", padding: "20px", fontFamily: '-moz-initial', backgroundColor: '#ffeefa' }}>
+        <div style={{ minHeight: "100vh", padding: "20px", fontFamily: '-moz-initial', backgroundColor: '#F7F3ED' }}>
             <ArrowBackOutlinedIcon
                 onClick={handleBack}
-                style={{ cursor: 'pointer', marginRight: '0.5rem', color: '#ec4899' }}
+                style={{ cursor: 'pointer', marginRight: '0.5rem', color: 'black' }}
             />
-            <h1 style={{ textAlign: "center", fontSize: "2.5rem", fontWeight: "bold", color: "black" }}>
-                ❤️Catálogo de Zapatos❤️
+            <h1 style={{ textAlign: "center", fontSize: "2.5rem", fontWeight: "bold", color: "#422B23" }}>
+               ✨Catálogo de Zapatos✨
             </h1>
 
-            <h3 style={{ textAlign: 'center', color: 'gray', fontWeight: 'bold' }}>¡Descubre nuestros diferentes estilos ✨y precios amigables a tu bolsillo💸!</h3>
+            <h3 style={{ textAlign: 'center', color: 'gray', fontWeight: 'bold' }}>¡Descubre nuestros diferentes estilos y precios amigables a tu bolsillo!</h3>
 
             {/* Filtros */}
             <div style={{ backgroundColor: "white", padding: "20px", borderRadius: "10px", margin: "20px 0" }}>
-                <h2 style={{ color: "black", marginBottom: "10px" }}>Filtros</h2>
+                <h2 style={{ color: "#422B23", marginBottom: "10px" }}>Filtros</h2>
 
                 <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
                     <select value={color} onChange={(e) => setColor(e.target.value)} style={selectStyle}>
@@ -646,8 +646,8 @@ const Catalogo = () => {
             </div>
 
             {/* Resultados */}
-            <h2 style={{ color: "#ff69b4", marginBottom: "10px" }}>Resultados</h2>
-            <p style={{ color: "#ff69b4", textAlign: "right" }}>{filteredShoes.length} productos encontrados</p>
+            <h2 style={{ color: "#DBA1A2", marginBottom: "10px" }}>Resultados</h2>
+            <p style={{ color: "#DBA1A2", textAlign: "right" }}>{filteredShoes.length} productos encontrados</p>
 
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "20px", marginTop: "20px" }}>
                 {filteredShoes.map((shoe) => (
@@ -698,6 +698,7 @@ const Catalogo = () => {
                                 marginBottom: "10px",
                                 borderRadius: "10px",
                                 border: "1px solid #ccc",
+                                outline:'none'
                             }}
                         />
                         <input
@@ -711,6 +712,7 @@ const Catalogo = () => {
                                 marginBottom: "10px",
                                 borderRadius: "10px",
                                 border: "1px solid #ccc",
+                                outline:'none'
                             }}
                         />
                         <button
@@ -729,7 +731,7 @@ const Catalogo = () => {
                                 ...quoteButtonStyle,
                                 width: "50%",
                                 marginBottom: "10px",
-                                backgroundColor: "black",
+                                backgroundColor: "#422B23",
                             }}
                         >
                             Enviar
@@ -745,7 +747,7 @@ const Catalogo = () => {
                                 borderRadius: "20px",
                                 border: "1px solid white",
                                 backgroundColor: "white",
-                                color: "#ff69b4",
+                                color: "#422B23",
                                 fontWeight: "bold",
                                 cursor: "pointer",
                             }}
@@ -771,11 +773,12 @@ const selectStyle: React.CSSProperties = {
 
 const clearButtonStyle: React.CSSProperties = {
     padding: "10px 20px",
-    backgroundColor: "black",
+    backgroundColor: "#422B23",
     border: "none",
     borderRadius: "5px",
     cursor: "pointer",
-    color: 'white'
+    color: 'white',
+    fontWeight:'bolder'
 
 };
 
@@ -795,7 +798,7 @@ const sizeBadgeStyle: React.CSSProperties = {
 
 const quoteButtonStyle: React.CSSProperties = {
     marginTop: "10px",
-    backgroundColor: "#ff69b4",
+    backgroundColor: "#DBA1A2",
     color: "white",
     border: "none",
     borderRadius: "20px",

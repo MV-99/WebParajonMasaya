@@ -94,40 +94,40 @@ const CatalogPage = () => {
             title: "Limpieza regular",
             description:
                 "Limpia tus zapatos con un paño húmedo o cepillo suave para evitar acumulación de suciedad.",
-            bgColor: "#dbeafe",
-            icon: <CleaningServicesIcon style={{ fontSize: "32px", color: "#3b82f6" }} />,
+            bgColor: "#EFD8D6",
+            icon: <CleaningServicesIcon style={{ fontSize: "32px", color: "#422B23" }} />,
         },
         {
             number: "02",
             title: "Almacenamiento adecuado",
             description:
                 "Guárdalos en un lugar fresco y seco, preferiblemente en bolsas de tela o cajas ventiladas.",
-            bgColor: "#d1fae5",
-            icon: <HomeIcon style={{ fontSize: "32px", color: "#10b981" }} />,
+            bgColor: "#EFD8D6",
+            icon: <HomeIcon style={{ fontSize: "32px", color: "#422B23" }} />,
         },
         {
             number: "03",
             title: "Protección contra humedad",
             description:
                 "Evita exponer tus zapatos al agua. Usa protectores impermeables si es necesario.",
-            bgColor: "#ede9fe",
-            icon: <UmbrellaIcon style={{ fontSize: "32px", color: "#8b5cf6" }} />,
+            bgColor: "#EFD8D6",
+            icon: <UmbrellaIcon style={{ fontSize: "32px", color: "#422B23" }} />,
         },
         {
             number: "04",
             title: "Mantenimiento del material",
             description:
                 "Aplica productos especiales para cuero, gamuza o tela según el tipo de calzado.",
-            bgColor: "#fef9c3",
-            icon: <AutoFixHighIcon style={{ fontSize: "32px", color: "#f59e0b" }} />,
+            bgColor: "#EFD8D6",
+            icon: <AutoFixHighIcon style={{ fontSize: "32px", color: "#422B23" }} />,
         },
         {
             number: "05",
             title: "Amor y dedicación",
             description:
                 "Revisa regularmente tus zapatos y dales el cariño que merecen para alargar su vida útil.",
-            bgColor: "#ffe4e6",
-            icon: <FavoriteIcon style={{ fontSize: "32px", color: "#ec4899" }} />,
+            bgColor: "#EFD8D6",
+            icon: <FavoriteIcon style={{ fontSize: "32px", color: "#422B23" }} />,
         },
     ];
 
@@ -426,7 +426,7 @@ const CatalogPage = () => {
                     textAlign: "center",
                 }}
             >
-                <h2 style={{ fontSize: "3rem", fontWeight: "bold", color: "#422B23", marginBottom: "0.5rem" }}>
+                <h2 style={{ fontSize: "3rem", fontWeight: "bold", color: "#DBA1A2", marginBottom: "0.5rem" }}>
                     Tips para cuidar tu calzado Parajón
                 </h2>
                 <p style={{ maxWidth: "700px", margin: "0 auto 2rem", color: "#6b7280", fontSize: "1.2rem" }}>
@@ -471,7 +471,8 @@ const CatalogPage = () => {
             </div>
             {/*parte de contacto*/}
             <div style={{ textAlign: 'center', marginTop: '3rem', backgroundColor:'#EFD8D6',height:'200px' }}>
-                <h2 style={{ color: '#422B23', fontSize: '3.2rem', marginBottom: '0.5rem' }}>Contacto</h2>
+                <h1 style={{color:'#EFD8D6'}}>hola</h1>
+                <h2 style={{ color: '#422B23', fontSize: '3.2rem', marginBottom: '0.5rem', marginTop:'-30px' }}>Contacto</h2>
                 <p style={{ color: '#555', fontSize: '1.2rem' }}>
                     ¿Tienes alguna pregunta💡? No dudes en contactarnos. Estamos aquí para ayudarte.
                 </p>
@@ -479,34 +480,34 @@ const CatalogPage = () => {
 
             <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', flexWrap: 'wrap', marginTop: '-2rem',backgroundColor:'#EFD8D6',}}>
                 <div style={tarjetaEstilo}>
-                    <div style={iconoEstilo('#ffe6ef')}>
-                        <LocationOnIcon style={{ color: '#f5a3bd' }} />
+                    <div style={iconoEstilo('#EFD8D6')}>
+                        <LocationOnIcon style={{ color: '#422B23' }} />
                     </div>
                     <h3 style={{ color: '#111' }}>Dirección</h3>
                     <p style={{ color: '#666', margin: '0.5rem 0' }}>C. del Mercado, Masaya</p>
                     <p style={{ color: '#666', margin: '0.5rem 0' }}>Ubicado en: Mercado Municipal Ernesto Fernandez</p>
-                    <a href="https://www.google.com/maps/place/Calzado+Paraj%C3%B3n/@11.973541,-86.0905858,17z/data=!3m1!4b1!4m6!3m5!1s0x8f7408a22e624c15:0x36a22019ecc6499f!8m2!3d11.9735358!4d-86.0880109!16s%2Fg%2F11f0wyr4xl?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoASAFQAw%3D%3Dl" target="_blank" rel="noopener noreferrer" style={{ color: '#f5a3bd', fontWeight: 'bold', textDecoration: 'none' }}>
+                    <a href="https://www.google.com/maps/place/Calzado+Paraj%C3%B3n/@11.973541,-86.0905858,17z/data=!3m1!4b1!4m6!3m5!1s0x8f7408a22e624c15:0x36a22019ecc6499f!8m2!3d11.9735358!4d-86.0880109!16s%2Fg%2F11f0wyr4xl?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoASAFQAw%3D%3Dl" target="_blank" rel="noopener noreferrer" style={{ color: '#422B23', fontWeight: 'bold', textDecoration: 'none' }}>
                         Ver en mapa
                     </a>
                 </div>
 
                 <div style={tarjetaEstilo}>
-                    <div style={iconoEstilo('#d6f3ff')}>
-                        <PhoneIcon style={{ color: '#ace0f9' }} />
+                    <div style={iconoEstilo('#EFD8D6')}>
+                        <PhoneIcon style={{ color: '#422B23' }} />
                     </div>
                     <h3 style={{ color: '#111' }}>Teléfono</h3>
 
                     <p style={{ color: '#666', margin: '0.5rem 0' }}>Tel: +505 89858585</p>
                     <p style={{ color: '#666', margin: '0.5rem 0' }}>Lun - Sab: 9:00 am - 5:30 pm</p>
                     <p style={{ color: '#666', margin: '0.5rem 0' }}>Dom: 9:00 am - 2:00 pm</p>
-                    <a href="Tel: +505 89858585" style={{ color: '#ace0f9', fontWeight: 'bold', textDecoration: 'none' }}>
+                    <a href="Tel: +505 89858585" style={{ color: '#422B23', fontWeight: 'bold', textDecoration: 'none' }}>
                         Llamar ahora
                     </a>
                 </div>
 
                 <div style={tarjetaEstilo}>
-                    <div style={iconoEstilo('#e6fff4')}>
-                        <EmailIcon style={{ color: '#97c1a9' }} />
+                    <div style={iconoEstilo('#EFD8D6')}>
+                        <EmailIcon style={{ color: '#422B23' }} />
                     </div>
                     <h3 style={{ color: '#111' }}>Email</h3>
 
@@ -515,7 +516,7 @@ const CatalogPage = () => {
                         href="https://mail.google.com/mail/?view=cm&to=parajonmasaya@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={{ color: '#97c1a9', fontWeight: 'bold', textDecoration: 'none' }}
+                        style={{ color: '#422B23', fontWeight: 'bold', textDecoration: 'none' }}
                     >
                         Enviar email
                     </a>
@@ -523,23 +524,23 @@ const CatalogPage = () => {
                 </div>
 
                 <div style={tarjetaEstilo}>
-                    <div style={iconoEstilo('#ffe4ec')}>
-                        <InstagramIcon style={{ color: '#ec9fcf' }} />
+                    <div style={iconoEstilo('#EFD8D6')}>
+                        <InstagramIcon style={{ color: '#422B23' }} />
                     </div>
                     <h3 style={{ color: '#111' }}>Instagram</h3>
                     <p style={{ color: '#666', margin: '0.5rem 0' }}>@parajon_cal</p>
-                    <a href="https://www.instagram.com/parajon_cal?igsh=bDZyZ2xxazRiOTE3" target="_blank" rel="noopener noreferrer" style={{ color: '#ec9fcf', fontWeight: 'bold', textDecoration: 'none' }}>
+                    <a href="https://www.instagram.com/parajon_cal?igsh=bDZyZ2xxazRiOTE3" target="_blank" rel="noopener noreferrer" style={{ color: '#422B23', fontWeight: 'bold', textDecoration: 'none' }}>
                         Ver perfil
                     </a>
                 </div>
 
                 <div style={tarjetaEstilo}>
-                    <div style={iconoEstilo('#d6eaff')}>
-                        <FacebookIcon style={{ color: '#8ac6ff' }} />
+                    <div style={iconoEstilo('#EFD8D6')}>
+                        <FacebookIcon style={{ color: '#422B23' }} />
                     </div>
                     <h3 style={{ color: '#111' }}>Facebook</h3>
                     <p style={{ color: '#666', margin: '0.5rem 0' }}>Calzado Parajón </p>
-                    <a href="https://www.facebook.com/share/1R8vwUPoLQ/" target="_blank" rel="noopener noreferrer" style={{ color: '#8ac6ff', fontWeight: 'bold', textDecoration: 'none' }}>
+                    <a href="https://www.facebook.com/share/1R8vwUPoLQ/" target="_blank" rel="noopener noreferrer" style={{ color: '#422B23', fontWeight: 'bold', textDecoration: 'none' }}>
                         Ver perfil
                     </a>
                 </div>
