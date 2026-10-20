@@ -1,0 +1,8 @@
+type HomeAboutProps = { image: string; fade: boolean };
+
+const HomeAbout = ({ image, fade }: HomeAboutProps) => <section style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-around', padding: '3rem 1rem', backgroundColor: '#F7F3ED', flexWrap: 'wrap' }}>
+    <div style={{ position: 'relative', width: '45%', maxWidth: '400px', minWidth: '280px', marginBottom: '2rem' }}><div style={{ position: 'absolute', top: '10px', left: '10px', width: '100%', height: '100%', backgroundColor: '#DBA1A2', borderRadius: '12px' }} /><img src={image} alt="Quienes somos" style={{ width: '100%', borderRadius: '12px', position: 'relative', boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)', opacity: fade ? 1 : 0, transition: 'opacity 0.5s ease-in-out' }} /></div>
+    <div style={{ width: '45%', minWidth: '280px' }}><h2 style={{ fontSize: '3.2rem', marginBottom: '1rem', color: '#DBA1A2' }}>¿Quiénes somos?</h2><p style={{ color: 'black', fontSize: '1.2rem', lineHeight: '1.6' }}>Con más de 15 años de experiencia en el mercado del calzado, Parajón se ha consolidado como una tienda de referencia en la venta de zapatos de calidad.</p><p style={{ color: 'black', fontSize: '1.2rem', lineHeight: '1.6' }}>Nuestra filosofía se basa en ofrecer un servicio personalizado, donde cada cliente recibe atención de calidad y los mejores calzados hechos a mano, adaptado a sus necesidades y presupuesto.</p><p style={{ color: 'black', fontSize: '1.2rem', lineHeight: '1.6' }}>En Parajón encontrarás una amplia variedad de estilos y colores, desde calzado casual hasta elegantes opciones para ocaciones especiales, siempre con la mejor relación calidad-precio.</p></div>
+</section>;
+
+export default HomeAbout;

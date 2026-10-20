@@ -2,7 +2,7 @@
 .gallery-container {
     min-height: 60vh;
     padding: 40px;
-    background: #EFD8D6;
+    background: #F7F3ED;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +27,7 @@
 
 /* Estilo Polaroid */
 .polaroid {
-    background-color: white;
+    background-color: #EFD8D6;
     padding: 10px 10px 30px 10px;
     /* parte inferior más ancha */
     border: 1px solid #ccc;
